@@ -1,8 +1,6 @@
 # Open Data Commons Attribution License (ODC-By) v1.0
 
-DISCLAIMER
 This license is from https://opendatacommons.org/licenses/by/1-0/
-
 A plain language summary is available [here](https://opendatacommons.org/licenses/by/summary/)
 
 # ODC Attribution License (ODC-By)
