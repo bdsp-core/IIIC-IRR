@@ -32,7 +32,7 @@ function fcn_fig2subplot(eegDir,sample_key,f,ax_eeg,ax_spe,label_str,show_flag)
         line(ax_eeg,xa2,ya2,'LineWidth',1,'Color','b');            
     hold(ax_eeg,'off')
 
-    tc=round(length(s_x)/2);
+    tc=round(length(s_x));
     col=[-10,25];
     for iReg=1:4
         spec=sdata{5-iReg,2};colormap jet;

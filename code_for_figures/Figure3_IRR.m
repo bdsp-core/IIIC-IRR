@@ -33,6 +33,7 @@ end
 
 % mIRR - 30
 [Yr,idx,med_mn_mx]=fcn_exclude4mIRR(YY,10);[M,Mk]=fcn_getCM_majority(Yr); 
+save('./Data/eFigure3/eFigure3_input.mat','Mk');
 
 % figure
 fcn_fig3CM(P,'Pairwise IRR (%)',labels([2:6,1]),'Purples',ax{7},1);
