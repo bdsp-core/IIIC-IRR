@@ -27,6 +27,7 @@ Selected examples of the idealized form of a pattern in the first column (A, E, 
 We calculated three performance metrics for each expert based on the agreement of their scores with the consensus score for each EEG segment: The false positive rate (FPR): the % of segments that do not belong to a given class that an expert incorrectly scores as belonging to the class; true positive rate (TPR; aka sensitivity), the % of segments within a class that the expert correctly scores as belonging to the class; and the positive predictive value (PPV; aka precision), the % of segments scored by an expert as belonging to a given class that do in fact belong to that class. In (A), we plot TPR vs FPR. A receiver operating characteristic (ROC) curve from the SSIT (similar expertise, individualized thresholds) model is fit to experts’ data for each IIIC category, shown as a dashed black line. The area under the ROC is shown in each plot. In (B), we plot the PPV vs TPR. A precision recall curve (PRC) is fit to experts’ data for each IIIC category. The area under the PRC is shown in each plot. The goodness of fit for ROC and PRC curves is calculated using R^2 values (see text). 
 
 ### Table 1: Prior studies of expert inter-rater reliability for detecting seizures and IIIC events.
+![Table 1](Table1.png)
 There is no code for this table. See paper. 
 
 ## Figures and Tables from Supplemental Material
