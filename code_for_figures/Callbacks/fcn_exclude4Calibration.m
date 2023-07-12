@@ -1,4 +1,4 @@
-function ind=fcn_exclude4Calibration(Y)
+function [ind,med_mn_mx]=fcn_exclude4Calibration(Y)
     K=5;bin_edges=(0:K)/K;  
     scored=zeros(size(Y,2),K);
     mn=nan(size(Y,2),K);
@@ -23,5 +23,7 @@ function ind=fcn_exclude4Calibration(Y)
         end
     end
     thr=10;
-    ind=find(min(mn,[],2)>=thr);     
+    ind=find(min(mn,[],2)>=thr);
+    
+    mn = mn(ind,:);med_mn_mx=[median(mn(:)),min(mn(:)),max(mn(:))]; 
 end
